@@ -9,6 +9,6 @@ Este sistema sirve para obtener retroalimentación sobre los usuarios de la pág
 
 Entre algunas de las informaciones que entrega *Google Analytics* se encuentran:
 
-{{< figure src="/guia/img/analytics_1.png" title="Cantidad de usuarios en línea en tiempo real." >}}
-{{< figure src="/guia/img/analytics_2.png" title="Horario de visita y ubicación de usuarios." >}}
-{{< figure src="/guia/img/analytics_3.png" title="Páginas más visitadas." >}}
+{{< figure src="/guia/img/cuentas/analytics_1.png" title="Cantidad de usuarios en línea en tiempo real." >}}
+{{< figure src="/guia/img/cuentas/analytics_2.png" title="Horario de visita y ubicación de usuarios." >}}
+{{< figure src="/guia/img/cuentas/analytics_3.png" title="Páginas más visitadas." >}}
