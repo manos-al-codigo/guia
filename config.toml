@@ -29,7 +29,19 @@ defaultContentLanguage = "es"
 
 # Sidebar Links
 [[menu.shortcuts]] 
+  name = "<i class='icon fas fa-globe-americas'></i> Sitio Principal"
+  identifier = "main-site"
+  url = "https://manos-al-codigo.github.io/"
+  weight = 1
+
+[[menu.shortcuts]] 
+  name = "<i class='icon fab fa-youtube'></i> Canal de YouTube"
+  identifier = "yt-channel"
+  url = "https://www.youtube.com/channel/UCrqwe8J9W_WK5LkRJKWh7DA"
+  weight = 2
+
+[[menu.shortcuts]] 
   name = "<i class='icon fab fa-github'></i> GitHub Organization"
   identifier = "github-org"
   url = "https://github.com/manos-al-codigo"
-  weight = 1
+  weight = 3
