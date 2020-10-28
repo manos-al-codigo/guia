@@ -1,4 +1,4 @@
-# Inicio
+![Logo](https://raw.githubusercontent.com/manos-al-codigo/assets/master/logo_with_text/logo_with_text_2000x1000-black.png?height=20vh&featherlight=false)
 
 Bienvenidos al sitio guía del proyecto **Manos al Código**.
 
