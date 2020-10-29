@@ -1,6 +1,6 @@
 +++
 title = "Manejo del contenido"
-weight = 2
+weight = 3
 +++
 
 Esta página es un hijo.

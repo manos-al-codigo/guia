@@ -1,6 +1,6 @@
 +++
 title = "Sintáxis Markdown"
-weight = 1
+weight = 2
 +++
 
 En esta página se presenta un ejemplo de cada forma posible para formatear texto y cómo obtenerlo con *Markdown*.
