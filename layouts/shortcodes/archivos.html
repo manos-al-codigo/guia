@@ -1,0 +1,21 @@
+{{ $params := .Params }}
+{{ $folder := index $params 0 }}
+
+<section class="attachments blue">
+  <label>
+    <i class="icon fas fa-paperclip" aria-hidden="true"></i>
+		{{ T "Attachments-label" }}
+  </label>
+  <div class="attachments-files">
+    {{ range $params }}
+      {{ if eq . (index $params 0) }}
+      {{ else }}
+      <li>
+        <a href="{{ (printf "https://raw.githubusercontent.com/manos-al-codigo/assets/master/%s/%s" $folder .) }}">
+          {{ . }}
+        </a>
+      </li>
+      {{ end }}
+    {{ end }}
+  </div>
+</section>
