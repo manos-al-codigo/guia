@@ -437,6 +437,29 @@ Se renderiza así:
 
 ![texto para cuando no se puede presentar la imagen](https://raw.githubusercontent.com/manos-al-codigo/assets/master/logo_with_text/logo_with_text_2000x1000-black.png?featherlight=false&with=200px&height=100px)
 
+## Archivos Adjuntos
+
+En varios de las páginas del contenido se puede observar un bloque que dice **Archivos Adjuntos** y tiene links para descargar estos archivos. Para utilizar este bloque, se debe primeramente subir el contenido que se desea adjuntar al [repositorio de assets](https://github.com/manos-al-codigo/assets). Por lo general, se crea una nueva carpeta en `contenido` con el número de la lección (ejemplo: `leccion-4`). Para esto, cree una carpeta en su computador llamada `contenido` y adentro de la misma una nueva carpeta con el nombre de la lección, `leccion-1` en este caso. Luego, en la página del repositorio, haga clic en **Add File > Upload Files** y arrastre la carpeta `contenido` a la página. Finalmente, en el bloque donde dice *Add files via upload*, escriba un mensaje pertinente, por ejemplo: "Agregado contenido de la lección 1." y termine haciendo clic en **Commit changes**.
+
+Una vez que el contenido ya esté subido al [repositorio de assets](https://github.com/manos-al-codigo/assets), se puede hacer uso de este bloque de contenido.
+
+Si se quiere adjuntar el contenido de la carpeta `leccion-1` que ese encuentra dentro de `contenido` del repositorio, se utiliza:
+
+```markdown
+{{</* archivos "contenido/leccion-1" "Que es la computacion.pdf" "Que es la computacion.pptx"  */>}}
+```
+
+Donde el primer bloque entre comillas corresponde al nombre de la carpeta desde la ruta del repositorio. Se usa `contenido/leccion-1` porque la carpeta `contenido` contiene a `leccion-1`.
+
+Los bloques siguientes de comillas corresponden al nombre de los archivos, en este caso, dentro de la carpeta `leccion-1` se encuentran los archivos siguientes:
+
+* `Que es la computacion.pdf`
+* `Que es la computacion.pptx`
+
+Este código se renderiza así:
+
+{{< archivos "contenido/leccion-1" "Que es la computacion.pdf" "Que es la computacion.pptx"  >}}
+
 ## Videos de YouTube
 
 Se pueden agregar videos de *YouTube* en las páginas. Lo único que se debe conocer es el identificador del video el cual es la cadena alfanumérica al final del link del video.
